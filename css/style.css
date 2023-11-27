@@ -1,0 +1,69 @@
+
+/*General Properties Section Start*/
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --bg-color:#f2f2f2;
+    --text-color:#000;
+    --bg2-color:#fff;
+
+}
+/*General Properties Section Start*/
+
+/*Common Properties For Images and Icons Section Start*/
+.crew_card img,
+.figure img{
+    opacity: 1.1;
+
+}
+.crew_card img:hover,
+.figure img:hover{
+    opacity: 0.8;
+}
+
+.about_icons,
+.crew_icons{
+    color: var(--text-color);
+    position: relative;
+    font-size: 40px;
+}
+
+/*Common Properties For Crewcard and Figure Images Section End*/
+
+/*Slider Section Start*/
+.image_slider{
+    height: 650px;
+}
+/*Slider Section End*/
+
+/*About Section Start*/
+.about_section,
+.gallery_section{
+    background-color: var(--bg-color);
+}
+.line{
+    border: none;
+    border-top: 3px solid var(--text-color);
+    max-width: 500px;
+    margin: 25px auto;
+}
+.about_icons{
+    top: -50px;
+    font-size: 40px;
+    border:  solid var(--bg-color);
+    background-color: var(--bg-color);
+   
+}
+/*About Section End*/
+
+/*Crew Section Start*/
+.crew_icons{
+    top: -60px;
+    background-color: var(--bg2-color);  
+    border: 10px solid var(--bg2-color);
+}
+/*Crew Section End*/
+
+
